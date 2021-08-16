@@ -1,0 +1,93 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.bigdiv{
+  width: 500px;
+  text-align: center;
+}
+.div1 {
+  text-align: center;
+  display: inline-block;
+  padding: 0.5px;
+  color:hsl(0, 0%, 59%);
+}
+.div1 strong {
+  color: black;
+}
+h1 {
+  font-weight: 10;
+  font-display:unset;
+}
+.div2 {
+  color: hsl(0, 2%, 31%);
+}
+.bigimage {
+  width:100%;
+  margin: auto;
+}
+.icon {
+  display:flex;
+  width: 15px;
+  display:inline;
+}
+.icon:hover {
+  background-color: blue;
+  opacity: .5;
+}
+
+.div3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form {
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+form input {
+  border-style: solid;
+  width: 250px;
+  height: 30px;
+  border-radius: 20px;
+  border-width: 1px;
+}
+button {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(182, 177, 177);
+  width: 100px;
+  height: 35px;
+  border-radius: 20px;
+  background-color: hsl(223, 87%, 63%);
+  color:blanchedalmond;
+  /* box-shadow: rgb(40, 82, 129); */
+  box-shadow: 5px 5px 5px rgb(151, 151, 228);
+
+}
+form button:hover {
+  color: white;
+  background-color: hsl(223, 56%, 59%);
+}
+footer {
+  display: inline-block;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 100px;
+}
+footer h6 {
+  margin-top: 2px;
+}
+
+@media screen and (max-width: 400px){
+  form {
+    flex-direction: column;
+  }
+}
