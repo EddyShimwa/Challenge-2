@@ -41,3 +41,14 @@ For the social icons, you can use a font icon library. Some suggestions can be f
 - [Font Awesome](https://fontawesome.com)
 - [IcoMoon](https://icomoon.io)
 - [Ionicons](https://ionicons.com)
+
+ESSENTIAL GIT COMMANDS
+  - git clone repo_name
+  - git status
+  - git add .  (to stage all changes)
+  - git commit -m "my commit message"
+  - git push orign branch_name
+  - git checkout -b branch_name or git branch branch_name  (to create a new branch)
+  - git checkout branch_name  (to go to branch_name)
+  - git log
+  - git commit --amend --no-edit
